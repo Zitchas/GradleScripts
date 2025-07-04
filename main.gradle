@@ -25,6 +25,7 @@ allprojects {
     apply plugin: 'java'
     apply plugin: 'architectury-plugin'
     apply plugin: 'maven-publish'
+    apply plugin: 'base'
 	
 	base {
 		archivesName = rootProject.archivesName
